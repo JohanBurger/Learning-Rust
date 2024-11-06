@@ -3,3 +3,4 @@
 2. [The Rust Programming Languate (The Book)](https://doc.rust-lang.org/stable/book/) or the [Interactive Brown Version](https://rust-book.cs.brown.edu/)
 3. [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 4. [Rustlings](https://github.com/rust-lang/rustlings)
+5. [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
