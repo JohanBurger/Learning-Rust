@@ -6,3 +6,4 @@
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
 - [Rust for Rustaceans](https://rust-for-rustaceans.com/)
+- [The Rust Performance Book](https://nnethercote.github.io/perf-book/)
