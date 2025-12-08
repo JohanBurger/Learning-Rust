@@ -1,0 +1,26 @@
+{
+	"name": "Rust Development",
+	"image": "mcr.microsoft.com/devcontainers/rust:1-bookworm",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"lldb.executable": "/usr/bin/lldb",
+				"files.watcherExclude": {
+					"**/target/**": true
+				},
+				"rust-analyzer.check.command": "clippy"
+			},
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"vadimcn.vscode-lldb",
+				"moecruise.dependi"
+			]
+		}
+	},
+
+	"forwardPorts": [],
+
+	"postCreateCommand": "rustup component add rustfmt clippy rust-src && cargo install cargo-watch cargo-edit cargo-audit",
+
+	"remoteUser": "vscode"
+}
